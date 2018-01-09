@@ -6,8 +6,8 @@ import { Proposal } from './proposal';
 
 @Injectable()
 export class ProposalService {
-	private proposalsUrl = 'http://localhost:3002/proposals';
-
+	private proposalsUrl = 'https://rails4angular2-rubyboss.c9users.io:8082/proposals';
+  
 	constructor(
 		private http: Http
 	) {}

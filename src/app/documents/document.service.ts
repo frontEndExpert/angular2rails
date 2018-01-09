@@ -6,7 +6,7 @@ import { Document } from './document';
 
 @Injectable()
 export class DocumentService {
-	private documentsUrl = 'http://localhost:3001/freelance_documents.json';
+	private documentsUrl = 'https://rails4angular2-rubyboss.c9users.io:8081/freelance_documents.json';
 
 	constructor(
 		private http: Http
